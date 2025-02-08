@@ -1,0 +1,24 @@
+version: "3.9"
+services:
+  ollama20250207-intel-gpu:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ollama20250207-intel-gpu
+    image: mocikate/ollama-intel-gpu:Ollama0.5.4
+    restart: always
+    devices:
+      - /dev/dri:/dev/dri
+      - /dev/dxg:/dev/dxg
+    volumes:
+      - /usr/lib/wsl:/usr/lib/wsl
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ollama-intel-gpu:/root/.ollama
+    ports:
+      - 11434:11434
+    environment:
+      - DISPLAY=${DISPLAY}
+  
+volumes:
+
+  ollama-intel-gpu: {}
