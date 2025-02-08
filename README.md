@@ -16,7 +16,7 @@ docker run --name=ollama20250207-intel-gpu --hostname=e3119405733d --mac-address
 webui:All versions of webui compatible with  Ollama, but please consider recommending "pagesAssist". 
 ```
 https://github.com/n4ze3m/page-assist
-```
+
 https://chromewebstore.google.com/detail/page-assist-a-web-ui-for/jfgfiigpkhlkbnfnbobbkinehhfdhndo
 ```
 
