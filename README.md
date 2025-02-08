@@ -2,7 +2,7 @@
 ollama0.5.4 with intel iGPU surport
 The Ollama version is 0.5.4 
 the intel-oneapi-base-toolkit is 2025.0.1.46.
-webui:https://github.com/n4ze3m/page-assist
+webui:https://github.com/n4ze3m/page-assist or OpenWEB UI from https://github.com/open-webui/open-webui
 # install
 ```
 $ git clone https://github.com/mocikate/ollama-intel
