@@ -2,7 +2,8 @@
 ollama0.5.4 with intel iGPU surport
 The Ollama version is 0.5.4 
 the intel-oneapi-base-toolkit is 2025.0.1.46.
-webui:https://github.com/n4ze3m/page-assist or OpenWEB UI from https://github.com/open-webui/open-webui
+# for windows user
+You can download the ipex-llm-ollama0.5.4 from [https://github.com/intel/ipex-llm/releases/](https://github.com/intel/ipex-llm/releases/download/v2.2.0-nightly/ollama-0.5.4-ipex-llm-2.2.0b20250213.zip) and run start.bat. 
 # install
 ```
 $ git clone https://github.com/mocikate/ollama-intel
